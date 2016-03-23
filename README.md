@@ -1,0 +1,2 @@
+# react_without_redux_pinterest
+不适用redux的pinterest版本
