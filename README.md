@@ -1,2 +1,3 @@
 # react_without_redux_pinterest
 不使用redux的pinterest版本
+##首先安装webpack-server
