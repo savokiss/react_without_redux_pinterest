@@ -1,10 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import Img from './Img.jsx'
 
-class ImgsContainer extends React.Component{
-   render(){
-       return <h1>imgs</h1>
-   }
+function ImgsContainer(props) {
+  return (
+    <div>
+      {
+        props.imgs.map(img =>
+          <Img data= {img} />
+        )
+      }
+    </div>
+  )
 }
 
 export default ImgsContainer;

@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './SearchBar.jsx';
 import ImgsContainer from './ImgsContainer.jsx';
+import '../styles/style.sass'
 
 class App extends React.Component{
    render(){
        return (
          <div>
           <SearchBar />
-          <ImgsContainer data={this.props.data} />
+          <ImgsContainer imgs={this.props.data} />
          </div>
        )
    }
